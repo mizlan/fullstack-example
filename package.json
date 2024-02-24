@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "dev-both": "concurrently --names=\"F,B\" --prefix-colors magenta,cyan --kill-others \"npm run --prefix chubbycats-frontend dev\" \"npm run --prefix chubbycats-backend dev\""
+  },
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
